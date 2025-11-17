@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap.iy demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a href="" class="navbar-brand fw-bold --text-main">
+                <i class="bi bi-bootstrap-fill"></i>Bootstrap4ik
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link --text-main">
+                            Features
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link --text-main">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link --text-main">
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="btn navbar-cta ms-2">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section text-white align-items-center">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-4 fw-bols mb-4 --text-main">
+                        Build fast, responsive, scalable sites with Bootstrap
+                    </h1>
+                    <p class="lead mb-4 --text-main">
+                        Bootstrap is the most popular HTML, CSS, and JS library
+                        in the world for building responsive,
+                        mobile-first projects on the web.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-start">
+                        <a href="#contact" class="btn --btn-primary btn-lg w-100 w-sm-auto">Get Started</a>
+                        <a href="https://getbootstrap.com/" class="btn --btn-primary btn-lg w-100 w-sm-auto">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://cdn.pixabay.com/photo/2024/11/17/04/52/chilli-9202873_640.jpg" alt="" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Bootstrap features</h2>
+                <p class="--text-main">
+                    Explore the powerful features that make Bootstrap the
+                    preferred choice for web development.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="feature-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4>Easy Integration</h4>
+                        <p class="--text-main">
+                            Seamlessly integrate Bootstrap into your existing projects
+                            with minimal effort.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="feature-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4>Security</h4>
+                        <p class="--text-main">
+                            Built with security in mind, Bootstrap helps protect
+                            your applications from common vulnerabilities.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="feature-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4>Integration</h4>
+                        <p class="--text-main">
+                            Easily integrates with popular frameworks like React,
+                            Angular, and Vue.js for enhanced functionality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Pricing</h2>
+                <p class="text--main">
+                    Choose a plan that fits your needs and budget.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card pricing-card h-100 p-4">
+                        <div class="card-body">
+                            <h5 class="text-main">Basic</h5>
+                            <h2 class="display-4 fw-bold mb-4">
+                                $19.99 <small class="fs-6">/month</small>
+                            </h2>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    Basic Features
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    Only 1 user
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    Basic Support
+                                </li>
+                            </ul>
+                            <a href="#" class="btn --btn-secondary --text-primary w-100">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card pricing-card pricing-card-featured h-100 p-4">
+                        <div class="card-body">
+                            <span class="badge --bg-secondary --text-primary mb-2">Best choice</span>
+                            <h5 class="text-main">Pro</h5>
+                            <h2 class="display-4 fw-bold mb-4">
+                                $49.99 <small class="fs-6">/month</small>
+                            </h2>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    All basic Features
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    More than 5 users
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    Advanced Support
+                                </li>
+                            </ul>
+                            <a href="#" class="btn --btn-secondary --text-primary w-100">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card pricing-card h-100 p-4">
+                        <div class="card-body">
+                            <h5 class="text-main">Pro +</h5>
+                            <h2 class="display-4 fw-bold mb-4">
+                                $99.99 <small class="fs-6">/month</small>
+                            </h2>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    All features included
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    Unlimited Users available
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check --text-secondary me-2"></i>
+                                    All Support + Individual Consulting
+                                </li>
+                            </ul>
+                            <a href="#contact" class="btn --btn-secondary --text-primary w-100">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Our clients reviews</h2>
+                <p class="text-muted">
+                    Trusted by millions of people and companies around the world
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4 gap-3 flex-wrap">
+                            <img class="testimonial-img"
+                                 src="https://cdn.pixabay.com/photo/2018/03/26/02/05/cat-3261420_640.jpg"
+                                 alt="Client1">
+                            <div>
+                                <h5 class="mb-0">Xvan Xachmenov</h5>
+                                <small class="text-muted">CEO, GiGi Za Shagi</small>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                                "Bootstrap has transformed our web development process.
+                                The responsive design and pre-built components
+                                have saved us countless hours."
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4 gap-3 flex-wrap">
+                            <img class="testimonial-img"
+                                 src="https://cdn.pixabay.com/photo/2023/12/11/12/51/lynx-8443540_640.jpg"
+                                 alt="Client2">
+                            <div>
+                                <h5 class="mb-0">Xrsen Xrsen</h5>
+                                <small class="text-muted">Senior Assembly Developer, Gooogle</small>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                                "The flexibility and ease of use that Bootstrap offers
+                                have made it our go-to framework for all our web projects.
+                                Highly recommended!"
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4 gap-3 flex-wrap">
+                            <img class="testimonial-img"
+                                 src="https://cdn.pixabay.com/photo/2020/02/20/12/12/cat-4864605_640.jpg"
+                                 alt="Client1">
+                            <div>
+                                <h5 class="mb-0">Xoman Xoman</h5>
+                                <small class="text-muted">CEO, GoGoDash</small>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                                "Bootstrap's extensive documentation and active community
+                                have been invaluable resources for our development team.
+                                It's a game-changer!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="--bg-secondary --text-primary py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-4 p-md-5">
+                            <h3 class="fw-bold mb-4">Get in Touch</h3>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input id="name" name="name" class="form-control form-control-lg"
+                                           placeholder="Enter your name"
+                                           type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input id="email" name="email" class="form-control form-control-lg"
+                                           placeholder="Enter your e-mail"
+                                           type="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control form-control-lg" rows="10"></textarea>
+                                </div>
+                                <button type="submit" class="btn --btn-primary btn-lg w-100">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Bootstrap.iy</h5>
+                    <p>&copy; 2025 kotik3131</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
